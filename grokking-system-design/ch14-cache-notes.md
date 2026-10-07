@@ -35,7 +35,7 @@
 
 ## 62. Memcached vs Redis（对照表要会背）
 - **Memcached**（2003）：shared-nothing、只存 string，路由/hash 全在客户端；多线程；无内置持久化/分片管理/复制（靠第三方）。Facebook 2013 数据：28TB 内存 / 800+ 台，挡在 MySQL 和 Web 层之间，**95% 命中率**，5000 万请求只剩 250 万打到 DB。
-- **Redis**：数据结构 store（list/set/zset/hash/bitmap/hyperloglog，可原地修改不用取回-反序列化-改-存回）；持久化（AOF 日志 / RDB 快照）；Sentinel 自动 failover；Cluster 自动分片（每分片 1 primary + replicas，控制面与数据面分离）；**复制是异步的，不保证强一致**；pipelining 批量发请求，吞吐可提 ~5 倍。
+- **Redis**：数据结构 store（list/set/zset/hash/bitmap/hyperloglog，可原地修改不用取回-反序列化-改-存回）；持久化（AOF 日志 / RDB 快照）；Sentinel 自动 failover；Cluster 自动分片（每分片 1 primary + replicas，控制面与数据面分离）；**复制是异步的，不保证强一致**；pipelining 批量发请求，吞吐可提 \~5 倍。
 - 选型口径：**简单读多、要多线程、想自己掌控 → Memcached；要数据结构/持久化/托管复制集群 → Redis**。
 
 ## 自测 4 问（带答案要点）

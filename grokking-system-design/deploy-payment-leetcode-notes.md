@@ -13,7 +13,7 @@
 ## Payment（176–177）
 - 七实体：持卡人、商户、网店、**发卡行**、**收单行**、支付网关、卡组织。
 - **Auth vs Settlement**：auth 同步（网关→发卡行验卡/风控/额度→返回授权码→**额度冻结，钱没动**）；settlement 异步批量（攒一批→processor/收单行→发卡行划钱→对账→商户入账，如每天一批）。
-- 估算：日 5000 万笔（均 200 万/时，峰 500 万/时）；存储约 **5GB/天**；峰值 ~1400 tps → 入 1.12Mbps、出 1.46Mbps；约 **782 台**。
+- 估算：日 5000 万笔（均 200 万/时，峰 500 万/时）；存储约 **5GB/天**；峰值 \~1400 tps → 入 1.12Mbps、出 1.46Mbps；约 **782 台**。
 - 组件：payment service、fraud detection（实时模式分析）、risk check（设备指纹+历史+位置 → 放行/挑战/拦截）、网关/PSP、卡组织、**wallet**（按商户记余额，多卖家订单拆分）、**ledger**（immutable append-only 审计 trail）、**reconciliation**（每日拿内部账本对 PSP 结算文件）、dispute（chargeback）。
 - Kafka 管线：wallet+ledger 写成功才标消息已消费 → **支付事件不丢**。
 - 瞬时故障三件套：**指数退避重试**（+最大次数→标失败）、**timeout 歧义**（可能已成功/还在处理/根本没到）、**fallback**（小额交易风控报错就放行，拿小风险换体验）。

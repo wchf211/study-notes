@@ -9,7 +9,7 @@
 ## 50. 为什么需要监控
 - 单点故障会级联：例子——视频上传链路里复制服务挂了，写继续进 X 库，X 再挂时读切到过期 Y 库 → "Video not found"。
 - 两类故障：**server-side**（5xx，监控看得见）vs **client-side**（4xx/网络问题，请求没到服务器时服务端日志完全看不见）。
-- 面试谈资数字：2021.10 社交巨头宕机 ~9 小时 × 约 $13M/小时；2021.12.7 AWS 宕机——自动扩容引发 client retry storm 打垮网络设备，约 $66,240/分钟。
+- 面试谈资数字：2021.10 社交巨头宕机 \~9 小时 × 约 $13M/小时；2021.12.7 AWS 宕机——自动扩容引发 client retry storm 打垮网络设备，约 $66,240/分钟。
 
 ## 51. 前置知识：metrics 与告警
 - **Pull vs push（必考决策）**：pull = 监控方按自己节奏 scrape，流量可控，默认选它；push = 被防火墙挡住 inbound 时才用（server 主动上报）。
@@ -24,7 +24,7 @@
 - 存储三件套：TSDB（热数据，读写快）+ blob storage（长期保留）+ rules DB（告警规则：条件→动作）。
 - Collector：pull 模式，从各 DC 经消息队列读应用日志（DigitalOcean 用 pull 监控全球数百万机器）；**service discoverer**（对接 EC2/K8s/Consul）让新实例自动被发现；alert manager 按 rules DB 评估后发邮件/Slack；dashboard 看大盘。
 - 单监控服务器的毛病：**单点** + 扩展不上 + 高精度数据存不起（要 retention/downsampling 策略）。
-- 扩展解法：**分层 hybrid pull/push**——secondary 在各 cluster 本地 pull（约 5000 节点/台），聚合后 push 到 primary，再到 global；配 blob storage + Elasticsearch + visualizer。记住锚点数字：**~5000 nodes per secondary**。
+- 扩展解法：**分层 hybrid pull/push**——secondary 在各 cluster 本地 pull（约 5000 节点/台），聚合后 push 到 primary，再到 global；配 blob storage + Elasticsearch + visualizer。记住锚点数字：**\~5000 nodes per secondary**。
 
 ## 54. 可视化：heat map
 - 百万台机器一眼看出谁挂了：按 DC→cluster→row 排序的二维颜色矩阵，绿正常、红失联。

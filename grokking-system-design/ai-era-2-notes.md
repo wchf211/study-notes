@@ -26,7 +26,7 @@
 - RAG 链：KB 预处理（clean→chunk→embed→index 进 vector DB）→ 每查询检索相关文档 → 增强 prompt → LLM 生成。"garbage in, garbage out" 适用于喂模型的 KB。
 - 功能：自由意图理解、**grounded 回答**（引用 KB 而非模型参数记忆）、**低置信转人工**、附件/截图、多轮、反馈收集。
 - 非功能：<5s 响应、99.9%、数亿用户、**LLM 之前先 PII masking/redaction**、监控面板。
-- 估算：1 亿用户 × 日 2 条 × 100 token = **200 亿 token/天** → 约 **1 万张常驻 GPU**；存储 ~3TB/天 → 10 年 30–35PB。
+- 估算：1 亿用户 × 日 2 条 × 100 token = **200 亿 token/天** → 约 **1 万张常驻 GPU**；存储 \~3TB/天 → 10 年 30–35PB。
 - 决策：managed LLM API vs 自建（成本/控制/延迟）；检索质量 vs 索引新鲜度；会话状态缓存降延迟。
 
 ## 190. RAG bot：两条 workflow
@@ -37,7 +37,7 @@
 ## 191. AI 代码助手：延迟游戏
 - 定义性约束：**TTFT <300ms**——开发者等提示词会断 flow。
 - 延迟抓手：**SSE 流式**（首 token 快到）、缓存重复 prompt、客户端 debounce **150–200ms**、vLLM batch 推理；**telemetry 全异步**（pub-sub，永不 block IDE）。
-- 估算：100 万开发者 × 日 50 次补全 = 5000 万次/天；峰值 ~6000 RPS；GPU 7500/50 = **150 台**（+25% buffer ≈ 190）；telemetry 4TB/天；带宽 1.8GB/s。
+- 估算：100 万开发者 × 日 50 次补全 = 5000 万次/天；峰值 \~6000 RPS；GPU 7500/50 = **150 台**（+25% buffer ≈ 190）；telemetry 4TB/天；带宽 1.8GB/s。
 
 ## 192. 代码助手：架构细节
 - API：getCompletion（POST、SSE 流式；带 session_id/file_content/cursor/language/open_files）/ submitFeedback（**fire-and-forget**，IDE 不阻塞）/ explainCode（SSE；instruction-tuned prompt）/ getStatus（健康检查，客户端降级用）。

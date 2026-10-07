@@ -3,8 +3,8 @@
 > 老版课 21–38 已下线；这是新版课最对等的 17 lessons。自己的话总结，只留数字、公式、trade-off。
 
 ## 估算：背公式
-- 参考量级：Facebook ~600 万赞/小时；Twitter ~6500 推/s；YouTube ~400 小时视频/分钟上传；Instagram ~1 亿照片/天（~35PB 总量）；Google ~35 亿搜索/天（~20PB/天处理）；WhatsApp ~650 亿消息/天；典型大 web app 基线：10 万 DAU、1 万 req/s。
-- **Jeff Dean 延迟表（背）**：L1 0.5ns；L2 7ns；内存 100ns；1KB 经 1Gbps ~10,000ns；SSD 读 4KB ~150,000ns；磁盘 seek 10ms；CA→荷兰→CA 包 ~150ms。
+- 参考量级：Facebook \~600 万赞/小时；Twitter \~6500 推/s；YouTube \~400 小时视频/分钟上传；Instagram \~1 亿照片/天（\~35PB 总量）；Google \~35 亿搜索/天（\~20PB/天处理）；WhatsApp \~650 亿消息/天；典型大 web app 基线：10 万 DAU、1 万 req/s。
+- **Jeff Dean 延迟表（背）**：L1 0.5ns；L2 7ns；内存 100ns；1KB 经 1Gbps \~10,000ns；SSD 读 4KB \~150,000ns；磁盘 seek 10ms；CA→荷兰→CA 包 \~150ms。
 - 2 的幂速查：2^10≈1K、2^20≈1M、2^30≈1B、2^40≈1T；天↔秒 ÷86400（≈10^5）。
 - **五步 recipe**（背顺序）：(1) 显式假设（用户、读写比、retention）→ (2) 流量 → (3) 存储 → (4) 带宽 → (5) 服务器数。
 - TinyURL 例：月 2000 万新 URL、读写比 100:1、5 年 retention、500B/条。

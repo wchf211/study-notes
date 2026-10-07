@@ -6,7 +6,7 @@
 - 个性化排序聚合；拆两半：**feed generation**（聚合→过滤→排序）vs **feed publishing**（hydrate + 投递）。
 - 非功能：数十亿用户、容错分区容忍、**可用性压过一致性**（PACELC，feed 旧一点可接受）、≤2 秒延迟。
 - **排序是算力心脏**：候选集 → 谣言/clickbait 压制 → 特征打分（历史/赞/评论/点击，1–5 分）→ 重 ML 基建（大数据管线+GPU/TPU）。
-- 估算：10 亿用户、5 亿 DAU，每人 ~300 好友+250 主页；5 亿×10 次/天 = 50 亿请求/天 ≈ **58K req/s**；用户元数据 50TB；文本 0.5PB；媒体约 112MB/人 × 5 亿 ≈ **56PB**；峰值约 **8000 台**。
+- 估算：10 亿用户、5 亿 DAU，每人 \~300 好友+250 主页；5 亿×10 次/天 = 50 亿请求/天 ≈ **58K req/s**；用户元数据 50TB；文本 0.5PB；媒体约 112MB/人 × 5 亿 ≈ **56PB**；峰值约 **8000 台**。
 - **图数据库存关系**（follow/like，schema 常变；property-graph，PG+JSON 也可实现）；其余关系型：User、Entity、Feed_item、Media。
 - 链路：图库取 follow IDs → user cache hydrate → post cache 取最新/热门 → ranking 打分 → **<Post_ID, User_ID> 元组**进 newsfeed cache → 发 top N + 分页。热门媒体走 CDN。
 - API：generateNewsfeed（内部异步）、getNewsfeed(user_id, count)。

@@ -9,7 +9,7 @@
 ## L2. 搭一个 ML 系统
 - 管线：原始数据收集 → 预处理 → 特征工程 → 训练 → serving。
 - 数据源：众包标注、用户行为日志、公开数据集。
-- 预处理：scaling/归一化、one-hot、feature hashing、缺失值、去离群点。特征选择：filter / wrapper / embedded。**类别不平衡**：oversample 少数类 / undersample 多数类 / SMOTE（少数类 <~1% 时要处理）。
+- 预处理：scaling/归一化、one-hot、feature hashing、缺失值、去离群点。特征选择：filter / wrapper / embedded。**类别不平衡**：oversample 少数类 / undersample 多数类 / SMOTE（少数类 <\~1% 时要处理）。
 - 切分：train/val/test + 交叉验证。指标目录：precision/recall/F1、PR 曲线、ROC AUC、**NDCG**、mAP（排序）；RMSE、MAPE、adj R²（回归）；Rand/silhouette/FID/BLEU（niche）。
 - 三个必讲的 trade-off：
   - **业务对齐**：先澄清产品目标，选能推动业务目标的指标，别在真空中优化 accuracy；
@@ -18,13 +18,13 @@
 
 ## L3. 性能与容量
 - 三种 serving 模式：**实时**（同步 request-response）、**近实时**（流式/事件驱动）、**异步/离线**（micro-batch）。
-- 延迟看 **p99/p999** 不看均值；SLA 例：搜索 ~300ms 其中 rerank 占 ~100ms。
+- 延迟看 **p99/p999** 不看均值；SLA 例：搜索 \~300ms 其中 rerank 占 \~100ms。
 - 容量公式：**QPS × 单查询耗时 ≈ 所需服务器数**（500 QPS × 0.4s ≈ 200 台）——面试官必考的心算。
 - 存储：SQL 管结构化查询，NoSQL KV/document 管在线特征快查。CAP：分区容忍是必选项，真实系统选 AP 或 CP。算力：CPU 通用 serving，GPU/TPU 给 DL 推理/训练。
 - 口径：batching 提吞吐但伤延迟；重排序这种重活要拆出独立的 latency slice。
 
 ## L4. 训练数据怎么来（"没有数据怎么办"必考）
-- 四路 often 组合：**人工标注**（in-house/外包/众包；annotation guideline、**inter-annotator agreement**、Cohen's kappa、**active learning** 只标信息量最大的、**data programming/weak supervision** Snorkel 式启发函数投票）；**用户行为数据**（implicit 信号，免费但 popularity skew + feedback loop）；**自监督**（BERT mask、GPT next-word、simCLR 对比、VAE）；**公开数据集**（ImageNet ~1400 万）。
+- 四路 often 组合：**人工标注**（in-house/外包/众包；annotation guideline、**inter-annotator agreement**、Cohen's kappa、**active learning** 只标信息量最大的、**data programming/weak supervision** Snorkel 式启发函数投票）；**用户行为数据**（implicit 信号，免费但 popularity skew + feedback loop）；**自监督**（BERT mask、GPT next-word、simCLR 对比、VAE）；**公开数据集**（ImageNet \~1400 万）。
 - 配套手段：GAN/diffusion/LLM 合成数据、迁移学习、augmentation（几何/颜色/crop、mixup/cutmix）、**reservoir sampling**（流式采样，第 i 个保留概率 k/i）、存储（blob、Parquet 列式）。
 - Unfold 里的定义：**parameters**（训练学到的，如神经网络权重）vs **hyperparameters**（训练前定的，如学习率、epoch 数）。
 - Trade-off：众包便宜但噪声大，专家准但慢贵；weak supervision 拿精度换量。
@@ -42,7 +42,7 @@
 - Trade-off：维度大表达强但吃内存拖 ANN；预训练省数据但可能 domain mismatch。
 
 ## L7. 迁移学习（"标注数据很少怎么办"的标准答案）
-- 两模式：**feature extraction**（冻 backbone 只训分类头——便宜、稳）vs **fine-tuning**（解冻部分/全部层继续训，学习率通常小 ~10 倍）。
+- 两模式：**feature extraction**（冻 backbone 只训分类头——便宜、稳）vs **fine-tuning**（解冻部分/全部层继续训，学习率通常小 \~10 倍）。
 - 实践：冻 early layers（学的是通用特征），fine-tune 后面层；**discriminative LR**（逐层衰减）；gradual unfreezing。
 - 风险点名：**catastrophic forgetting**（洗掉预训练知识）、**negative transfer**（domain 差太远越迁越差）。相关：domain adaptation、multi-task、few/zero-shot。
 
