@@ -32,3 +32,5 @@
     - [AI 重塑与 ChatGPT](grokking-system-design/ai-era-1-notes.md)
     - [数据基建 / RAG bot / 代码助手](grokking-system-design/ai-era-2-notes.md)
   - [课程大纲](grokking-system-design/course-outline.md)
+- Grokking ML Interview
+  - [Intro + 实用 ML 概念](grokking-machine-learning-interview/ch1-2-intro-practical-ml-notes.md)
