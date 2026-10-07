@@ -35,3 +35,4 @@
 - Grokking ML Interview
   - [Intro + 实用 ML 概念](grokking-machine-learning-interview/ch1-2-intro-practical-ml-notes.md)
   - [Search Ranking + Feed](grokking-machine-learning-interview/ch3-4-search-feed-notes.md)
+  - [推荐 + 自动驾驶 + Entity Linking](grokking-machine-learning-interview/ch5-7-recsys-driving-entitylinking-notes.md)
