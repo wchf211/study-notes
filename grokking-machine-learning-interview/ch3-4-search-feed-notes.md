@@ -1,6 +1,6 @@
 # ML 面试 II：Search Ranking + Feed — 提炼笔记（Ch3–Ch4，2026-10-06）
 
-> 自己的话总结。MLE 视角：排序问题的标准答题骨架（funnel + 指标 + 训练数据 + 实验）。
+> MLE 视角：排序问题的标准答题骨架（funnel + 指标 + 训练数据 + 实验）。
 
 ## Ch3. Search Ranking
 

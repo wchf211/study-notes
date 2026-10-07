@@ -1,6 +1,6 @@
 # ML 面试 I：Intro + 实用 ML 概念 — 提炼笔记（Ch1–Ch2，2026-10-06）
 
-> Grokking the Machine Learning Interview。自己的话总结，非原文搬运。MLE 面试视角：考官考的是 applied judgment，不是背定义。
+> Grokking the Machine Learning Interview。MLE 面试视角：考官考的是 applied judgment，不是背定义。
 
 ## L1. 这门课帮你过什么样的面试
 - 大厂 ML 面试有专门的 ML system design 轮：把 ML 基础（决策树、transformer、XGBoost）用到真实问题上。

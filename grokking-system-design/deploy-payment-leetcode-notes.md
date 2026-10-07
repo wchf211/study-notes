@@ -1,6 +1,5 @@
 # Code Deployment + Payment + LeetCode — 提炼笔记（174–179，2026-10-06）
 
-> 只留关键、长远有用的点。自己的话总结，非原文搬运。
 
 ## Code Deployment（174–175）
 - Pipeline 七段：VCS → CI → build → 自动化测试 → staging → deploy → 监控+回滚。

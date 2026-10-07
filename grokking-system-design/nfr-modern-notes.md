@@ -1,6 +1,6 @@
 # 非功能需求（新版课 6 lessons，替代老版 10–19）— 提炼笔记（2026-10-06）
 
-> 老版课的 Backups/Heartbeats/Checksum/Replication/Partitioning/Encryption 已下线；新版课换成 6 课精简版。自己的话总结。
+> 老版课的 Backups/Heartbeats/Checksum/Replication/Partitioning/Encryption 已下线；新版课换成 6 课精简版。
 
 ## Availability
 - 公式：Availability% = (总时间 − 宕机) / 总时间 × 100。

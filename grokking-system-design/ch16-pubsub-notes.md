@@ -1,6 +1,5 @@
 # Ch16: Pub-Sub — 提炼笔记（71–73，2026-10-06）
 
-> 只留关键、长远有用的点。自己的话总结，非原文搬运。
 
 ## 71. Pub-Sub 抽象
 - 核心：用 topic + event broker 把 publisher 和 subscriber **解耦**——双方互不知晓，可独立扩展、故障隔离。

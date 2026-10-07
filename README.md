@@ -1,6 +1,6 @@
 # 学习笔记
 
-各课程的 own-words 提炼笔记（自己的话总结，非原文搬运），每章带自测题（含答案要点）。
+各课程的提炼笔记，每章带自测题（含答案要点）。
 
 ## 课程
 
@@ -11,6 +11,5 @@
 ## 待学习
 
 - **Stanford CME 295 — Transformers & Large Language Models**（免费，YouTube，约 14h）—— https://cme295.stanford.edu/
-  - 定位：打我的 6 个方向 —— LLM Systems（Inference + Scaling）、LLM Training、LLM Evaluation（Quality/Metrics）、架构（MoE/MQA/GQA/RoPE）
+  - 覆盖：LLM Systems（Inference + Scaling）、LLM Training、LLM Evaluation（Quality/Metrics）、架构（MoE/MQA/GQA/RoPE）
   - 建议观看顺序：LLM Systems → LLM Training → LLM Evaluation → 架构 → RL → Agents → 基础快进
-  - 状态：Educative 先（10/20 过期），这个不跑不消失，之后再决定什么时候学

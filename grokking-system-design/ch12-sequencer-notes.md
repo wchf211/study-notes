@@ -1,6 +1,5 @@
 # Ch 12: Sequencer — 提炼笔记（46–48，2026-10-06）
 
-> 只留关键、长远有用的点。自己的话总结，非原文搬运。
 
 ## 46. System Design: Sequencer（可跳过）
 - 纯框架课：讲 sequencer 是分布式系统的通用 building block，本章当案例演示标准解题流程：需求 → 估算 → API → 时序图 → schema → 高层/详细设计 → trade-off → 评估。

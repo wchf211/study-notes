@@ -1,6 +1,6 @@
 # 系统设计面试精华笔记
 
-Grokking (Modern) System Design Interview 全课提炼 —— 自己的话总结（非原文搬运），每章带 4 道自测题（含答案要点）。整理于 2026-10-06。
+Grokking (Modern) System Design Interview 全课提炼 —— 每章带 4 道自测题（含答案要点）。整理于 2026-10-06。
 
 > 左侧目录点着看。建议面试前按这个顺序过一遍：估算 → 非功能需求 → RESHADED 答题骨架 → 1～2 个大题深挖。
 

@@ -1,6 +1,5 @@
 # Ch20–21: Distributed Logging + Task Scheduler — 提炼笔记（93–100，2026-10-06）
 
-> 只留关键、长远有用的点。自己的话总结，非原文搬运。
 
 ## Logging
 

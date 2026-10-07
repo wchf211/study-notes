@@ -1,6 +1,5 @@
 # Newsfeed + Instagram — 提炼笔记（146–150，2026-10-06）
 
-> 只留关键、长远有用的点。自己的话总结，非原文搬运。
 
 ## 146. Newsfeed：生成 vs 发布
 - 个性化排序聚合；拆两半：**feed generation**（聚合→过滤→排序）vs **feed publishing**（hydrate + 投递）。

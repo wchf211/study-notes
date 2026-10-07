@@ -1,6 +1,5 @@
 # ML 面试 V：Hate Speech + 动态定价 — 提炼笔记（Ch10–Ch11，2026-10-06）
 
-> 自己的话总结。这门课收工。
 
 ## Ch10. Hate Speech 检测
 

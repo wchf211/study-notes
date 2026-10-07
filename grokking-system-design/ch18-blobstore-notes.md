@@ -1,6 +1,5 @@
 # Ch18: Blob Store — 提炼笔记（80–84，2026-10-06）
 
-> 只留关键、长远有用的点。自己的话总结，非原文搬运。
 
 ## 80. Blob store 是什么
 - 存非结构化二进制（图/音/视频/二进制包），两大定义特征：**flat namespace**（container 不能嵌套）+ **immutable/WORM**（write-once read-many，更新 = 传新版本，不原地改）。

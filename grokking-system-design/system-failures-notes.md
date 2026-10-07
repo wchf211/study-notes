@@ -1,6 +1,6 @@
 # Lessons from System Failures（Module 47，2026-10-06）
 
-> 老版课 193–197 已下线；这是新版课最对等的替代（4 lessons）。自己的话总结。
+> 老版课 193–197 已下线；这是新版课最对等的替代（4 lessons）。
 
 ## 1. Lessons from System Failures：五大韧性原则
 - 故障两大根因：需求多变逼系统频繁更新（更新带来不稳定）；复杂系统的涌现行为（整体比局部难推理）。
