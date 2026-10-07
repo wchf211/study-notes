@@ -8,6 +8,7 @@
 - [Grokking the Machine Learning Interview](grokking-machine-learning-interview/README.md) —— MLE 面试：ML 系统设计 7 大实战 + 实用概念，整理于 2026-10-06
 - [Machine Learning System Design](machine-learning-system-design/README.md) —— 2h 短课：6 步框架 + 5 实战一篇全收，整理于 2026-10-07
 - [Grokking the Generative AI System Design](generative-ai-system-design/README.md) —— GenAI 面试专项：SCALED 框架 + 六大 modality + RAG，直觉版，整理于 2026-10-07
+- [AI Product Engineering](ai-product-engineering/README.md) —— LLM 功能产品工程：scoping/prompt contract/eval/按需能力/生产运维，整理于 2026-10-07
 
 ## 待学习
 

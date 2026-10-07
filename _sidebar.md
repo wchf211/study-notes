@@ -3,3 +3,4 @@
 - [Grokking ML Interview](grokking-machine-learning-interview/README.md)
 - [ML System Design（2h）](machine-learning-system-design/README.md)
 - [Grokking the Generative AI System Design](generative-ai-system-design/README.md)
+- [AI Product Engineering](ai-product-engineering/README.md)

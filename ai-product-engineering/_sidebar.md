@@ -1,0 +1,7 @@
+- [← 回到目录](README.md)
+- [课程首页](ai-product-engineering/README.md)
+- [生命周期 + Scoping](ai-product-engineering/aipe-01-lifecycle-scoping.md)
+- [Prompt 即 Contract](ai-product-engineering/aipe-02-prompt-contract.md)
+- [评估体系](ai-product-engineering/aipe-03-evaluation.md)
+- [按需取用能力](ai-product-engineering/aipe-04-capabilities.md)
+- [生产运维](ai-product-engineering/aipe-05-production.md)
