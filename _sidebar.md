@@ -34,3 +34,4 @@
   - [课程大纲](grokking-system-design/course-outline.md)
 - Grokking ML Interview
   - [Intro + 实用 ML 概念](grokking-machine-learning-interview/ch1-2-intro-practical-ml-notes.md)
+  - [Search Ranking + Feed](grokking-machine-learning-interview/ch3-4-search-feed-notes.md)
