@@ -38,3 +38,5 @@
   - [推荐 + 自动驾驶 + Entity Linking](grokking-machine-learning-interview/ch5-7-recsys-driving-entitylinking-notes.md)
   - [广告预测 + 反欺诈](grokking-machine-learning-interview/ch8-9-ads-fraud-notes.md)
   - [Hate Speech + 动态定价](grokking-machine-learning-interview/ch10-11-hatespeech-pricing-notes.md)
+- ML System Design（2h）
+  - [完整笔记](machine-learning-system-design/notes.md)
