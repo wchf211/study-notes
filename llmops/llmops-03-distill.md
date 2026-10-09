@@ -7,7 +7,7 @@
 - **版本化**：进 git、review、每次输出可追溯到 prompt 版本。
 - 解剖：system prompt（角色/规则）+ 任务指令 + 检索到的 context + **few-shot examples**（输入输出示范对）+ 输出格式 spec（如 JSON）。
 - 技巧：zero-shot（纯指令）、few-shot、**chain-of-thought**（让模型逐步推理，多步任务准，但烧 token + 延迟）、structured outputs、delimiter（指令和不可信内容划界）。
-- **Temperature**：采样随机性旋钮——事实/抽取任务 ~0，创意任务调高。和 top-p 一起，**是版本化配置，不是随手拧的**。
+- **Temperature**：采样随机性旋钮——事实/抽取任务 \~0，创意任务调高。和 top-p 一起，**是版本化配置，不是随手拧的**。
 - 生命周期：起草 → golden 集上评估 → 带版本号上线 → 监控 → 迭代。
 - **Guardrails 放代码里**（输入输出校验、schema 检查、blocklist），别只写 prompt 里。
 
