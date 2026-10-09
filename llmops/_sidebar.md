@@ -1,0 +1,7 @@
+- [← 回到目录](README.md)
+- [课程首页](llmops/README.md)
+- [是什么 + 4D 框架](llmops/llmops-01-what-and-4d.md)
+- [Discover + 数据工程](llmops/llmops-02-discover-data.md)
+- [Distill：Prompt + 评估](llmops/llmops-03-distill.md)
+- [Deploy：安全 + Infra](llmops/llmops-04-deploy.md)
+- [Deliver：编排 + 治理](llmops/llmops-05-deliver.md)
