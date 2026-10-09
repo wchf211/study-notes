@@ -5,3 +5,4 @@
 - [Grokking the Generative AI System Design](generative-ai-system-design/README.md)
 - [AI Product Engineering](ai-product-engineering/README.md)
 - [LLMOps](llmops/README.md)
+- [LLM Evaluation](llm-evaluation/README.md)
