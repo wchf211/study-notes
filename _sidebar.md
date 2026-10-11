@@ -6,3 +6,4 @@
 - [AI Product Engineering](ai-product-engineering/README.md)
 - [LLMOps](llmops/README.md)
 - [LLM Evaluation](llm-evaluation/README.md)
+- [Agentic System Design](agentic-system-design/README.md)
