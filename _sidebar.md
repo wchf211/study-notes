@@ -7,3 +7,4 @@
 - [LLMOps](llmops/README.md)
 - [LLM Evaluation](llm-evaluation/README.md)
 - [Agentic System Design](agentic-system-design/README.md)
+- [Machine Learning Handbook](ml-handbook/README.md)
