@@ -14,6 +14,7 @@
 - [Agentic System Design](agentic-system-design/README.md) —— Crash course：agent 架构 + 六阶段框架 + 4 个完整 case（含 Eureka/ADK），整理于 2026-10-10
 - [Machine Learning Handbook](ml-handbook/README.md) —— ML 词汇+地图：三范式、工具栈、传统 vs 深度、CV+NLP，整理于 2026-10-10
 - [LoRA Fine-Tuning](lora-fine-tuning/README.md) —— 参数高效微调：taxonomy + 量化 + LoRA/QLoRA 数学与动手，整理于 2026-10-12
+- [Learn TypeScript](learn-typescript/README.md) —— TS 速通：类型系统内功 + 类型组合设计 + 泛型 + 实战迁移，整理于 2026-10-12
 
 ## 待学习
 
