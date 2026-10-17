@@ -7,3 +7,7 @@
 - [ADK Eureka](agentic-system-design-full/full-05-adk-eureka.md)
 - [ChainBuddy](agentic-system-design-full/full-06-chainbuddy.md)
 - [Teaching Lens Part 2](agentic-system-design-full/full-07-teaching-part2.md)
+- [Web Agent](agentic-system-design-full/full-08-web-agent.md)
+- [MuLan + OpenClaw](agentic-system-design-full/full-09-mulan-openclaw.md)
+- [Wrap-up + Appendix](agentic-system-design-full/full-10-wrapup-appendix.md)
+- [Teaching Lens Part 3](agentic-system-design-full/full-11-teaching-part3.md)

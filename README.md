@@ -19,7 +19,7 @@
 - [Teaching Playbook](teaching-playbook/README.md) —— AI agent / harness 讲解手册：两门课讲法审计 + 8 期系列大纲 + 每期模板，整理于 2026-10-17
 - [Applied AI Engineer](applied-ai-engineer/README.md) —— 生产 LLM：prompt/RAG/agent/微调/eval/部署/安全，high-level 版（非逐段深读），整理于 2026-10-17
 - [Distributed Systems for Practitioners (Part 1)](distributed-systems/README.md) —— Modules 1–3 + 全课地图，Modules 4–31 续读中，整理于 2026-10-17
-- [Agentic System Design（完整版，Part 1）](agentic-system-design-full/README.md) —— Modules 1–3：地基 + MACRS + Eureka，Modules 4–13 续读中，整理于 2026-10-17
+- [Agentic System Design（完整版）](agentic-system-design-full/README.md) —— 42 课全读完：地基 + MACRS + Eureka + ADK + ChainBuddy + WebVoyager + MuLan + OpenClaw，整理于 2026-10-17
 
 ## 待学习
 
