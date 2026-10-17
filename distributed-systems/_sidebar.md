@@ -7,3 +7,5 @@
 - [Distributed Transactions](distributed-systems/ds-04-transactions.md)
 - [Consensus](distributed-systems/ds-05-consensus.md)
 - [Teaching Lens Part 2](distributed-systems/ds-06-teaching-part2.md)
+- [Time + Order](distributed-systems/ds-07-time-order.md)
+- [Teaching Lens Part 3](distributed-systems/ds-08-teaching-part3.md)
