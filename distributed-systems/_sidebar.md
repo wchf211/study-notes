@@ -21,3 +21,5 @@
 - [Teaching Lens Part 8](distributed-systems/ds-18-teaching-part8.md)
 - [Data Processing](distributed-systems/ds-19-data-processing.md)
 - [Teaching Lens Part 9](distributed-systems/ds-20-teaching-part9.md)
+- [Practices & Patterns](distributed-systems/ds-21-practices-patterns.md)
+- [Teaching Lens Part 10](distributed-systems/ds-22-teaching-part10.md)
