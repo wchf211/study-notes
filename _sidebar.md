@@ -14,3 +14,4 @@
 - [Teaching Playbook](teaching-playbook/README.md)
 - [Applied AI Engineer](applied-ai-engineer/README.md)
 - [Distributed Systems (Part 1)](distributed-systems/README.md)
+- [Agentic System Design (Full, Part 1)](agentic-system-design-full/README.md)
