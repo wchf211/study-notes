@@ -19,3 +19,5 @@
 - [Teaching Lens Part 7](distributed-systems/ds-16-teaching-part7.md)
 - [Messaging + K8s + Ledger](distributed-systems/ds-17-messaging-k8s-ledger.md)
 - [Teaching Lens Part 8](distributed-systems/ds-18-teaching-part8.md)
+- [Data Processing](distributed-systems/ds-19-data-processing.md)
+- [Teaching Lens Part 9](distributed-systems/ds-20-teaching-part9.md)
