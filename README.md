@@ -15,6 +15,7 @@
 - [Machine Learning Handbook](ml-handbook/README.md) —— ML 词汇+地图：三范式、工具栈、传统 vs 深度、CV+NLP，整理于 2026-10-10
 - [LoRA Fine-Tuning](lora-fine-tuning/README.md) —— 参数高效微调：taxonomy + 量化 + LoRA/QLoRA 数学与动手，整理于 2026-10-12
 - [Learn TypeScript](learn-typescript/README.md) —— TS 速通：类型系统内功 + 类型组合设计 + 泛型 + 实战迁移，整理于 2026-10-12
+- [Master Agentic Design Patterns](agentic-design-patterns/README.md) —— harness pattern 目录：building blocks + 5 pattern + 2 case + teaching lens，整理于 2026-10-17
 
 ## 待学习
 

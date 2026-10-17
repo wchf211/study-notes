@@ -1,0 +1,6 @@
+- [← 回到目录](README.md)
+- [课程首页](agentic-design-patterns/README.md)
+- [Building Blocks](agentic-design-patterns/patterns-01-building-blocks.md)
+- [Five Patterns](agentic-design-patterns/patterns-02-five-patterns.md)
+- [Case Studies + Wrap-up](agentic-design-patterns/patterns-03-case-studies.md)
+- [Teaching Lens](agentic-design-patterns/patterns-04-teaching.md)
