@@ -15,3 +15,5 @@
 - [Teaching Lens Part 5](distributed-systems/ds-12-teaching-part5.md)
 - [Coordination Service](distributed-systems/ds-13-coordination.md)
 - [Teaching Lens Part 6](distributed-systems/ds-14-teaching-part6.md)
+- [Distributed Data Stores](distributed-systems/ds-15-data-stores.md)
+- [Teaching Lens Part 7](distributed-systems/ds-16-teaching-part7.md)
