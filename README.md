@@ -20,6 +20,7 @@
 - [Applied AI Engineer](applied-ai-engineer/README.md) —— 生产 LLM：prompt/RAG/agent/微调/eval/部署/安全，high-level 版（非逐段深读），整理于 2026-10-17
 - [Distributed Systems for Practitioners](distributed-systems/README.md) —— 148 课全读完：基础 + 事务/共识/时间/网络/安全 + 7 个 case study + pattern，整理于 2026-10-17
 - [Agentic System Design（完整版）](agentic-system-design-full/README.md) —— 42 课全读完：地基 + MACRS + Eureka + ADK + ChainBuddy + WebVoyager + MuLan + OpenClaw，整理于 2026-10-17
+- [Agentic RAG](agentic-rag/README.md) —— 12 课全读完：RAG → agentic RAG、建研究助理、调试/评估、生产 + 未来，整理于 2026-10-17
 
 ## 待学习
 
