@@ -17,3 +17,5 @@
 - [Teaching Lens Part 6](distributed-systems/ds-14-teaching-part6.md)
 - [Distributed Data Stores](distributed-systems/ds-15-data-stores.md)
 - [Teaching Lens Part 7](distributed-systems/ds-16-teaching-part7.md)
+- [Messaging + K8s + Ledger](distributed-systems/ds-17-messaging-k8s-ledger.md)
+- [Teaching Lens Part 8](distributed-systems/ds-18-teaching-part8.md)
