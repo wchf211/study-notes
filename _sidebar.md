@@ -17,3 +17,4 @@
 - [Agentic System Design (Full)](agentic-system-design-full/README.md)
 - [Agentic RAG](agentic-rag/README.md)
 - [Forward Deployed Engineer](forward-deployed-engineer/README.md)
+- [OpenTelemetry](opentelemetry/README.md)
