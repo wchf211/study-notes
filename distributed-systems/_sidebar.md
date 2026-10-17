@@ -1,0 +1,6 @@
+- [← 回到目录](README.md)
+- [课程首页](distributed-systems/README.md)
+- [Course Outline](distributed-systems/ds-00-outline.md)
+- [Foundations](distributed-systems/ds-01-foundations.md)
+- [Basic Concepts + Theorems](distributed-systems/ds-02-concepts-theorems.md)
+- [Teaching Lens](distributed-systems/ds-03-teaching.md)
