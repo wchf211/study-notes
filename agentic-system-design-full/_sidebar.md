@@ -4,3 +4,6 @@
 - [MACRS](agentic-system-design-full/full-02-macrs.md)
 - [Eureka](agentic-system-design-full/full-03-eureka.md)
 - [Teaching Lens](agentic-system-design-full/full-04-teaching.md)
+- [ADK Eureka](agentic-system-design-full/full-05-adk-eureka.md)
+- [ChainBuddy](agentic-system-design-full/full-06-chainbuddy.md)
+- [Teaching Lens Part 2](agentic-system-design-full/full-07-teaching-part2.md)
