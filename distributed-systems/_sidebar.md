@@ -4,3 +4,6 @@
 - [Foundations](distributed-systems/ds-01-foundations.md)
 - [Basic Concepts + Theorems](distributed-systems/ds-02-concepts-theorems.md)
 - [Teaching Lens](distributed-systems/ds-03-teaching.md)
+- [Distributed Transactions](distributed-systems/ds-04-transactions.md)
+- [Consensus](distributed-systems/ds-05-consensus.md)
+- [Teaching Lens Part 2](distributed-systems/ds-06-teaching-part2.md)
