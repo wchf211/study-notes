@@ -11,3 +11,5 @@
 - [Teaching Lens Part 3](distributed-systems/ds-08-teaching-part3.md)
 - [Networking + Security](distributed-systems/ds-09-networking-security.md)
 - [Teaching Lens Part 4](distributed-systems/ds-10-teaching-part4.md)
+- [Security Protocols + GFS](distributed-systems/ds-11-security-protocols-case1.md)
+- [Teaching Lens Part 5](distributed-systems/ds-12-teaching-part5.md)
