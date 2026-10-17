@@ -12,3 +12,4 @@
 - [Learn TypeScript](learn-typescript/README.md)
 - [Master Agentic Design Patterns](agentic-design-patterns/README.md)
 - [Teaching Playbook](teaching-playbook/README.md)
+- [Applied AI Engineer](applied-ai-engineer/README.md)

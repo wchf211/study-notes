@@ -1,0 +1,6 @@
+- [← 回到目录](README.md)
+- [课程首页](applied-ai-engineer/README.md)
+- [Foundations + Prompts](applied-ai-engineer/aae-01-foundations-prompts.md)
+- [RAG + Agents + Fine-tuning](applied-ai-engineer/aae-02-rag-agents-finetune.md)
+- [Eval + Deploy + Multimodal + Safety](applied-ai-engineer/aae-03-eval-deploy-multimodal-safety.md)
+- [Teaching Lens](applied-ai-engineer/aae-04-teaching.md)
